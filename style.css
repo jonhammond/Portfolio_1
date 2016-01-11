@@ -1,0 +1,95 @@
+
+.col1 {
+  width: 74px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.caption {
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.pad-top {
+  padding-top: 20px;
+}
+
+nav {
+  /*background-color: rgba(5, 11, 156, .5);*/
+  width: 100%;
+  text-align: center;
+  font-size: 65px;
+  display: inline-block;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+aside {
+  float: left;
+  padding-right: 30px;
+  line-height: 40px;
+  height: 100%;
+  /*background-color: rgba(0, 14, 255, .7);*/
+  border-radius: 20%;
+  border-right: solid white 1px;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+  font-family: verdana;
+}
+
+a:hover {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Verdana;
+  color: blue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  border-top: solid black 1px;
+  clear: both;
+  background-color: rgba(141, 150, 138, 1);
+
+}
+
+td {
+  vertical-align: top;
+  text-align: center;
+}
+
+table {
+  padding-left: 15px;
+}
+
+body {
+  font-family: "Palatino", verdana, sans-serif, Arial;
+  background-image: url(images/backgrounds/stardust.png);
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
