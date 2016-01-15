@@ -1,5 +1,10 @@
 $(document).ready(function() {
   console.log("test");
-  var $target = $('div');
-  $target.fadeOut('slow');
-});
+  $('div').mouseover(function()
+    {
+      $('div').fadeOut('slow', 0);
+})
+
+//   var $target = $('div');
+//   $target.fadeOut('slow');
+// });
